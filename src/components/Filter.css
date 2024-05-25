@@ -11,7 +11,7 @@
 }
 
 .filter-container {
-    margin: 20px auto; /* Zentrieren der Filter-Container */
+    margin: 10px auto; /* Zentrieren der Filter-Container */
     display: flex;
     flex-wrap: wrap; /* Ermöglicht das Umbruch der Eingabefelder */
     justify-content: center; /* Zentrieren der Eingabefelder */
