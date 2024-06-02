@@ -19,7 +19,7 @@ const Footer = () => {
                     <p>&copy; 2024 XYZ Ltd. All rights reserved.</p>
                     <p>Company Name: XYZ Ltd.</p><br />
                     <p>Address: 1234 Street Name, City, Country</p>
-                    <p>Email: contact@xyz.com</p><br />
+                
                     
                 </div>
                 
@@ -89,7 +89,9 @@ const Footer = () => {
                     <ul>
                     <p>Phone: +123456789</p>
                     <p>Montag-Freitag: 8.00-19.00 Uhr</p>
-                    <p>Samstag:9.00-18.00 Uhr</p><br />
+                    <p>Samstag:9.00-18.00 Uhr</p>
+                    <p>Email: contact@xyz.com</p><br />
+
                     </ul>
                 </div>
                 </div>
