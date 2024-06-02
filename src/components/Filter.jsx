@@ -12,10 +12,11 @@ const Filter = () => {
             />
             <h1>WELCOME TO ALPAMEDICS</h1>
             <div className="filter-container">
-                <input type="text" placeholder="Filter 1" className="filter-input" />
-                <input type="text" placeholder="Filter 2" className="filter-input" />
-                <input type="text" placeholder="Filter 3" className="filter-input" />
-                <input type="text" placeholder="Filter 4" className="filter-input" />
+                <input type="text" placeholder="Medikamente" className="filter-input" />
+                <input type="text" placeholder="Sorten" className="filter-input" />
+                <input type="text" placeholder="Pharma" className="filter-input" />
+                <input type="text" placeholder="Preis" className="filter-input" />
+                <p> <div className="user-icon">🔍</div></p>
             </div>
         </section>
     );

@@ -1,4 +1,6 @@
-.grid-section {
+
+
+/*.grid-section {
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -19,7 +21,7 @@
     width: 300px;
 }
 
-/* Media Queries für feinere Anpassungen */
+/* Media Queries für feinere Anpassungen 
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
@@ -43,3 +45,110 @@
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
+.grid-container h2{
+    
+    color: blue;
+    display: flex;
+            justify-content: center; /* Centre horizontalement 
+            align-items: center;    /* Centre verticalement */
+            
+        
+/*}
+.grid-container p{
+    
+    color: rosybrown;
+    display: flex;
+            justify-content: center; /* Centre horizontalement 
+            align-items: center;    /* Centre verticalement 
+            
+        
+}*/
+
+
+
+
+
+/* Styles pour la section Impressum */
+.impressum-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.impressum-section h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.impressum-section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Styles pour la grille */
+.grid-section {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    margin: 10px 0;
+}
+
+/* Styles pour le footer */
+.footer-section {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-info,
+.footer-navigation,
+.footer-zahlung,
+.footer-service,
+.footer-legal {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-info p, .footer-navigation ul, .footer-legal ul ,.footer-zahlung ul,.footer-service{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navigation ul,
+.footer-legal ul {
+    list-style: none;
+}
+
+.footer-navigation ul li,
+.footer-legal ul li {
+    margin: 5px 0;
+}
+
