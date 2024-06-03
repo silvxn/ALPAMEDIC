@@ -1,124 +1,10 @@
+/* Grid.css */
 
-
-/*.grid-section {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    max-width: 1260px;
-    width: 100%;
-}
-
-.grid-item {
-    background-color: #f1f1f1;
-    height: 300px;
-    border-radius: 30px;
-    width: 300px;
-}
-
-/* Media Queries für feinere Anpassungen 
-@media (max-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 900px) {
-    .grid-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 901px) and (max-width: 1200px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 1201px) {
-    .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
-}
-.grid-container h2{
-    
-    color: blue;
-    display: flex;
-            justify-content: center; /* Centre horizontalement 
-            align-items: center;    /* Centre verticalement */
-            
-        
-/*}
-.grid-container p{
-    
-    color: rosybrown;
-    display: flex;
-            justify-content: center; /* Centre horizontalement 
-            align-items: center;    /* Centre verticalement 
-            
-        
-}*/
-
-
-
-
-
-/* Styles pour la section Impressum */
-.impressum-section {
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-}
-
-.impressum-section h1 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.impressum-section p {
-    margin: 5px 0;
-    font-size: 16px;
-}
-
-/* Styles pour la grille */
-.grid-section {
-    padding: 20px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-}
-
-.grid-item {
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.grid-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.grid-item p {
-    margin: 10px 0;
-}
-
-/* Styles pour le footer */
+/* Styles généraux pour le footer */
 .footer-section {
-    background-color: #f8f8f8;
+    background: linear-gradient(180deg, rgba(32,148,137,1) 0%, rgba(0,194,177,1) 60%);
     padding: 20px;
+    border-top: 1px solid #e7e7e7;
 }
 
 .footer-content {
@@ -129,26 +15,84 @@
 
 .footer-info,
 .footer-navigation,
-.footer-zahlung,
 .footer-service,
+.footer-zahlung,
 .footer-legal {
     flex: 1;
-    min-width: 200px;
     margin: 10px;
 }
 
-.footer-info p, .footer-navigation ul, .footer-legal ul ,.footer-zahlung ul,.footer-service{
-    margin: 0;
-    padding: 0;
+.footer-info h1,
+.footer-navigation h2,
+.footer-service h2,
+.footer-zahlung h2,
+.footer-legal h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
-.footer-navigation ul,
-.footer-legal ul {
-    list-style: none;
-}
-
-.footer-navigation ul li,
-.footer-legal ul li {
+.footer-info p,
+.footer-navigation p,
+.footer-service p,
+.footer-zahlung p,
+.footer-legal p {
     margin: 5px 0;
 }
 
+.footer-info a,
+.footer-navigation a,
+.footer-service a,
+.footer-zahlung a,
+.footer-legal a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-info a:hover,
+.footer-navigation a:hover,
+.footer-service a:hover,
+.footer-zahlung a:hover,
+.footer-legal a:hover {
+    text-decoration: underline;
+    color: #eeebe7; 
+    
+}
+
+/* Classe pour le lien sélectionné */
+.selected {
+    color: rgb(206, 17, 17); /* Couleur de votre choix pour le lien sélectionné */
+}
+
+/* Styles pour la section de la grille */
+.grid-section {
+    padding: 20px;
+    background-color: #fff;
+   
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    flex: 1 0 21%; /* Ajustez cette valeur pour changer le nombre d'éléments par ligne */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    margin: 5px 0;
+}

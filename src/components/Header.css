@@ -37,3 +37,28 @@
     font-size: 24px;
     margin-left: 20px;
 }
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #111111;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+.warenkorb-link {
+    color: #f39c12; /* Couleur pour le lien du panier */
+}
+.cart-icon {
+    width: 30px; /* Ajustez la taille de l'icône selon vos besoins */
+    height: 20px;
+    background-color: transparent;
+}
