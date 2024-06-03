@@ -40,3 +40,22 @@
         width: calc(100% - 20px); /* Ein Eingabefeld pro Zeile */
     }
 }
+.horizontal-menu {
+    display: flex; /* Utilise flexbox pour aligner les éléments en ligne */
+    justify-content: space-around; /* Espace égal entre les éléments */
+    background-color: #f2f2f2; /* Couleur de fond de la barre */
+    padding: 10px; /* Espacement interne */
+}
+
+.horizontal-menu a {
+    text-decoration: none; /* Supprime la sous-ligne des liens */
+    color: #333; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement interne des liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+.horizontal-menu a:hover {
+    background-color: #ddd; /* Couleur de fond au survol */
+    color: #000; /* Couleur du texte au survol */
+}

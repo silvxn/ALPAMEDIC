@@ -16,8 +16,17 @@ const Filter = () => {
                 <input type="text" placeholder="Sorten" className="filter-input" />
                 <input type="text" placeholder="Pharma" className="filter-input" />
                 <input type="text" placeholder="Preis" className="filter-input" />
-                <p> <div className="user-icon">🔍</div></p>
+                
             </div>
+            <div class="horizontal-menu">
+    <a href="#medikamente">Medikamente</a>
+    <a href="#tabletten">Tabletten</a>
+    <a href="#arzneimittel">Arzneimittel</a>
+    <a href="#apotheke">Apotheke</a>
+    <a href="#pille">Pille</a>
+    <a href="#pharma">Pharma</a>
+</div>
+
         </section>
     );
 }
